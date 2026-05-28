@@ -1,0 +1,22 @@
+{
+  "name": "handshake-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for Handshake - Sybil-Resistant Uniswap V4 Hook",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@uniswap/v4-core": "^1.0.2",
+    "@uniswap/v4-periphery": "^1.0.3",
+    "dotenv": "^17.4.2",
+    "hardhat": "^2.22.2",
+    "solmate": "^6.8.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}

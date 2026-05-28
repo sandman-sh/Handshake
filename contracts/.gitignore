@@ -1,0 +1,11 @@
+# Build folders
+artifacts/
+cache/
+node_modules/
+
+# Environment keys
+.env
+
+# Hardhat coverage
+coverage/
+coverage.json
